@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<title>Portfolio</title>
+	</head>
+	<body>
+	    <!-- Header -->
+	    <header class="header shadow fixed-top" id="header">
+		    <div class="container">
+			    <div class="row py-2 header justify-content-between">
+				    <!-- Logo -->
+				    <div class="col" id='col-logo'>
+					    <a href="https://codepen.io/nick104/" class="logo h1" target="_blank">Nick104</a>
+					</div>
+					
+					<!-- Dropdown menu -->
+					<div class="col d-block d-md-none text-right">
+					    <div class="dropdown">
+							<button class="btn dropdown-toggle ddMenuBtn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<div class="menuLine"></div>
+								<div class="menuLine"></div>
+								<div class="menuLine"></div>
+							</button>
+							<div class="dropdown-menu p-0" aria-labelledy="dropdownMenu2">
+								<button class="dropdown-item btn text-uppercase aboutBtn activeBtn" id='ddAboutBtn' type="button">About</button>
+								<button class="dropdown-item btn text-uppercase portfolioBtn" id='ddPortfolioBtn' type="button">Portfolio</button>
+								<button class="dropdown-item btn text-uppercase contactBtn" id='ddContactBtn' type="button">Contact</button>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Menu -->
+					<div class="col d-none d-md-block text-right" id="col-menu">
+						<div class="btn-group btn-group-lg" id="bg" role="group" aria-label="Basic example">
+						    <button type="button" class="menuBtn btn text-uppercase aboutBtn activeBtn" id='aboutBtn'>About</button>
+							<button type="button" class="menuBtn btn text-uppercase portfolioBtn" id="portfolioBtn">Portfolio</button>
+							<button type="button" class="menuBtn btn text-uppercase contactBtn" id="contactBtn">Contact</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="container bg-white border border-dark mt-5">
+		    <!-- About -->
+		    <div class="row align-items-center py-5 border-bottom border-dark" id="about">
+				<div class="col-md-8 h5">
+					<p class="text-right">
+						Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.
+					</p>
+					<div class="row justify-content-end">
+					    <div class="line w-75 mr-3 mb-2"></div>
+					</div>
+					<p class="text-right">
+						Web Developer - User Experience Designer - Graphic Artist
+					</p>
+				</div>
+				<div class="col-md-4">
+				    <img src="http://i104.fastpic.ru/big/2018/0420/f4/4f28dc110c7279e80bef7ccaa886a0f4.jpg" class="img-fluid mx-auto d-block rounded-circle border border-dark" alt="Picture of digital resistance" title="Picture of digital resistance">
+				</div>
+			</div>
+			
+			<!-- Up button -->
+			<div class="upBtn text-center d-block d-md-none" id="upBtn">&#923;</div>
+			
+			<!-- Portfolio -->
+			<div class="row pt-5" id="portfolio">
+			    <div class="col">
+				    <h1 class="h1 text-center mb-4 text-uppercase">Portfolio</h1>
+					<div class="row justify-content-center mb-5">
+					    <div class="line w-50"></div>
+					</div>
+				</div>		
+			</div>
+			
+			<div class="row">
+				<div class="col-lg px-0 mb-3">
+					<img src="http://via.placeholder.com/400x250" class="img-fluid mx-auto d-block">
+				</div>
+				<div class="col-lg px-0 mb-3">
+					<img src="http://via.placeholder.com/400x250" class="img-fluid mx-auto d-block">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg px-0 mb-3">
+					<img src="http://via.placeholder.com/400x250" class="img-fluid mx-auto d-block">
+				</div>
+				<div class="col-lg px-0 mb-3">
+					<img src="http://via.placeholder.com/400x250" class="img-fluid mx-auto d-block">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg px-0 mb-3">
+					<img src="http://via.placeholder.com/400x250" class="img-fluid mx-auto d-block">
+				</div>
+				<div class="col-lg px-0 mb-3">
+					<img src="http://via.placeholder.com/400x250" class="img-fluid mx-auto d-block">
+				</div>	
+            </div>
+
+			<!-- Contact me -->
+            <div class="row border-top border-dark" id="contact">
+			    <div class="col mt-5">
+					<h1 class="h1 text-center mb-4 text-uppercase">Contact me</h1>
+					<div class="row justify-content-center mb-4">
+						<div class="line w-50"></div>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+			    <div class="col-md-6">
+				    <form>
+					    <div class="form-group">
+							<label for="name" id="nameLabel" class="lbs">Name</label>
+							<input type="text" class="form-control mb-3" id="name" placeholder="Name">
+							
+							<label for="email" id="emailLabel">Email Address</label>
+							<input type="text" class="form-control mb-3" id="email" placeholder="Email Address">
+							
+							<label for="phone" id="phoneLabel">Phone Number</label>
+							<input type="text" class="form-control mb-3" id="phone" placeholder="Phone Number">
+							
+							<label for="message" id="messageLabel">Message</label>
+							<textarea class="form-control mb-3" id="message" rows="3" placeholder="Message"></textarea>
+							
+							<button type="submit" class="w-25">Send</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6 pt-4">
+				    <p class="h5">
+					    Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
+					</p>					
+					<p class="h5">I promise to reply A.S.A.P.</p>
+				</div>
+			</div>			
+		</div>
+		
+		<!-- First footer -->
+		<footer class="footer1">
+		    <div class="container">
+			    <div class="row py-5">
+				    <div class="col col-md-6">
+					    <h3 class="h3 text-center text-uppercase text-white">About this page</h3>
+						<h5 class="h5 text-center text-white">Made by <a href="https://codepen.io/nick104/" class="logo" target="_blank">Nick104</a></h5>
+					</div>
+					<div class="col-md-6">
+					    <h3 class="text-center text-uppercase text-white">Around the web</h3>
+						<div class="row justify-content-center">
+							<a href="https://linkedin.com/" class="mr-2" target="_blank"><div class="sb in"></div></a>
+							<a href="https://github.com/Nick104" class="mr-2" target="_blank"><div class="sb git"></div></a>
+							<a href="https://twitter.com/" class="mr-2" target="_blank"><div class="sb tw"></div></a>
+							<a href="https://www.flickr.com/" target="_blank"><div class="sb fli"></div></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<!-- Second footer -->
+		<footer class="footer2">
+		    <div class="container">
+			    <div class="row py-3">
+				    <div class="col">
+				        <h4 class="h4 text-center text-white"><a href="https://codepen.io/nick104/" class="logo" target="_blank">Nick104</a> &copy; 2018. All Rights Reversed.</h4>
+				    </div>
+
+				</div>
+				
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		
+		<script src="script.js"></script>
+	</body>
+</html>

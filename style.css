@@ -1,0 +1,170 @@
+body {
+	background-color: #AD66D5;
+}
+
+/* Header */
+
+.header {
+	background-color: #48036F;
+}
+
+.logo {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+}
+
+.logo:hover {
+	text-decoration: none;
+	color: #AD66D5;
+}
+
+.menuBtn {
+	background-color: #48036F;
+	color: white;
+}
+
+.menuBtn:hover {
+	background-color: #AD66D5;
+}
+
+.activeBtn {
+	background-color: #AD66D5 !important;
+}
+
+.line {
+	border-top: 5px solid black;
+}
+
+.menuLine {
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+
+.ddMenuBtn {
+	background-color: #AD66D5;
+}
+
+.ddMenuBtn {
+	border: 2px solid white;
+	background-color: #48036F;
+}
+
+.ddMenuBtn:hover {
+	background-color: #AD66D5;
+}
+
+.dropdown-menu button {
+	background-color: #48036F;
+	color: white;
+}
+
+.dropdown-menu button:hover {
+	background-color: #AD66D5;
+	color: white;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+/* Message */
+
+input, textarea, input:active, textarea:active {
+	box-shadow: none !important;
+	border: 0 !important;
+	border-bottom: 1px solid black !important;
+	border-radius: 0 !important;
+}
+
+label {
+	margin-left: 11px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: -3px;
+	color: #48036F;
+	opacity: 0.009;
+}
+
+/* Footer */
+
+.footer1 {
+	background-color: #602580;
+}
+
+.sb {
+	width: 48px;
+	height: 48px;
+}
+
+.in {
+	background-image: url('http://i104.fastpic.ru/big/2018/0423/77/03d46025755e8e3aef4653565970f077.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+}
+
+.in:hover {
+	background-image: url('http://i105.fastpic.ru/big/2018/0423/d2/18c144622b8a9f918f65e96a412e44d2.png');
+}
+
+.git {
+	background-image: url('http://i104.fastpic.ru/big/2018/0423/53/2ba26df0dd5a71891f67ddfe1662da53.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+}
+
+.git:hover {
+	background-image: url('http://i105.fastpic.ru/big/2018/0423/ce/77679f8995c83f3e277e5e0ed2312bce.png');
+}
+
+.tw {
+	background-image: url('http://i105.fastpic.ru/big/2018/0423/98/91f5c48fcfa7cae618b6454519494f98.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+}
+
+.tw:hover {
+	background-image: url('http://i104.fastpic.ru/big/2018/0423/0f/a2d49cbe4baa4d496d6c8174dfe82e0f.png');
+}
+
+.fli {
+	background-image: url('http://i105.fastpic.ru/big/2018/0423/8e/52fec4500c0d52cfb8cf330929f6d18e.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+}
+
+.fli:hover {
+	background-image: url('http://i105.fastpic.ru/big/2018/0423/e7/4ec19620127ef4080fdcf9ae28e732e7.png');
+}
+
+.footer2 {
+	background-color: #48036F;
+}
+
+/* Up btn */
+.upBtn {
+	width: 50px;
+	height: 50px;
+	background-color: #48036F;
+	border: 2px solid white;
+	border-radius: 50%;
+	color: white;
+	font-size: 26px;
+	
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 100;
+}
+
+.upBtn:hover {
+	background-color: #AD66D5;
+	border-color: #48036F;
+	cursor: pointer;
+}
